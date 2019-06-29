@@ -1,0 +1,34 @@
+{
+  "name": "wendigo-plugin",
+  "version": "0.1.0",
+  "description": "Bootstraping of a wendigo plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests/**/*.test.js ./tests/hooks.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angrykoala/wendigo-plugin.git"
+  },
+  "keywords": [
+    "wendigo",
+    "puppeteer",
+    "headless",
+    "browser"
+  ],
+  "author": "angrykoala <angrykoala@outlook.es>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/angrykoala/wendigo-plugin/issues"
+  },
+  "homepage": "https://github.com/angrykoala/wendigo-plugin#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "express": "^4.17.1",
+    "mocha": "^6.1.4",
+    "wendigo": "^2.3.0"
+  },
+  "peerDependencies": {
+    "wendigo": "^2.3.0"
+  }
+}
